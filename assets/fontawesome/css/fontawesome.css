@@ -12553,8 +12553,8 @@ readers do not read off random characters that represent icons */
   content: "\e200"; }
 
 .fa-database::before {
-  content: "\f1c0"; }
-
+  content: "\f1c0"; } 
+  
 .fa-down-left::before {
   content: "\e16a"; }
 
