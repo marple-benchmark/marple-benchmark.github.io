@@ -116,7 +116,7 @@ body, html {
     color: #2E2D29;
     font-family: "Source Serif 4", serif;
     font-weight: normal;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     width: 60.0%;
     padding-top: 2vw;
     margin-left: auto;
@@ -431,7 +431,7 @@ hr.rounded {
     color: #2E2D29;
     font-family: "Source Serif 4", serif;
     font-weight: normal;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     line-height: 1.4;
     width: 60.0%;
     margin-left: auto;
@@ -446,7 +446,7 @@ hr.rounded {
     color: #2E2D29;
     font-family: "Source Serif 4", serif;
     font-weight: normal;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     line-height: 1.4;
     width: 60.0%;
     margin-left: auto;
@@ -1465,7 +1465,7 @@ html.w-mod-touch * {
     }
 
     .contribution {
-        font-size: 1.33vw;
+        font-size: 1.13vw;
         padding-top: 5vw;
     }
 
