@@ -150,13 +150,35 @@
 
     <h1>Benchmark Overview</h1>
     <p style="text-align: justify;">
+    <style>
+        .inline-bullet {
+            display: block;
+            list-style-type: disc;
+            /* padding-left: 10px;
+            margin-right: 10px; */
+        }
+        .inline-bullet:before {
+            content: "• ";
+        }
+    </style>
+        The MARPLE benchmark makes 3 key contributions:        
+        <span class="inline-bullet"><b>Inference Scenarios:</b> a set of 5 challenging inference scenarios, along with pre-collected datasets for training and evaluation and a evaluation metric.</span>
+        <span class="inline-bullet"><b>Household Simulator:</b> supports generation of diverse agent behaviors involving semantically rich activities, featuring multimodal evidence such as vision, language, and audio.</span>
+        <span class="inline-bullet"><b>Benchmarking Experiments:</b> evaluation of machine learning baselines (simulation with learned agent models and GPT-4) against human participants as a comparison standard.</span>
+
+        We provide details in the following sections.
+    <p>
+
+    <h1>Inference Scenarios</h1>
+    <p style="text-align: justify;">    
         The MARPLE Benchmark features 10 diverse, long-horizon missions, which are paired to create 5 
         challenging inference scenarios that offer a balanced representation of the complexity and diversity 
         offered by pairing missions. Each mission is accompanied by both train and test datasets: two 
         train datasets, each containing 5000 agent trajectories (one for evaluating in-distribution 
         performance and the other for out-of-distribution performance), and a test dataset with 500 
-        diverse agent trajectories.
+        diverse agent trajectories.      
     <p>
+
 
     <h1>Household Simulator</h1>
 
